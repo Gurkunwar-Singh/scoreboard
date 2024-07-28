@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+  background:#071859;
+ 
+}
+
+.container ,.container1{
+    display: flex;
+    justify-content: space-around;
+  
+}
+.board-title-home{
+  width: 149px;
+height: 36px;
+top: 68px;
+left: 85px;
+gap: 0px;
+opacity: 0px;
+font-family: Verdana;
+font-size: 40px;
+font-weight: 700;
+line-height: 35.89px;
+text-align: center;
+color: #EEEEEE;
+
+}
+.board-title-home1{
+  width: 149px;
+height: 36px;
+top: 68px;
+left: 340px;
+gap: 0px;
+opacity: 0px;
+font-family: Verdana;
+font-size: 40px;
+font-weight: 700;
+line-height: 35.89px;
+text-align: center;
+color: #EEEEEE;
+
+}
+.home-score{
+  width: 155px;
+height: 120px;
+top: 125px;
+left: 82px;
+gap: 0px;
+border-radius: 5px 0px 0px 0px;
+opacity: 0px;
+background: #080001;
+text-align:center;
+
+
+}
+.home-points-text{
+    font-family: Cursed Timer ULiL;
+font-size: 90px;
+font-weight: 400;
+line-height: 126.67px;
+text-align: center;
+  margin-top:-0px;
+  width: 117px;
+height: 120px;
+
+top: 125px;
+left: 100px;
+gap: 0px;
+opacity: 0px;
+color: #F94F6D;
+
+
+
+}
+.guest-score{
+width: 155px;
+height: 120px;
+top: 0px;
+left: 337px;
+gap: 0px;
+border-radius: 5px 0px 0px 0px;
+opacity: 0px;
+
+background: #080001;
+
+
+}
+.guest-points-text{
+  margin-top:0px;
+ width: 117px;
+height: 120px;
+top: 125px;
+left: 355px;
+gap: 0px;
+opacity: 0px;
+
+font-family: Cursed Timer ULiL;
+font-size: 90px;
+font-weight: 400;
+line-height: 126.67px;
+text-align: center;
+color: #F94F6D;
+
+}
+.container2{
+    display: flex;
+    justify-content:space-around;
+ margin-top:20px;
+  height:100px;
+  
+}
+.add-points-btns-home{
+
+width: 155px;
+height: 45px;
+top: 271px;
+left: 82px;
+gap: 0px;
+border-radius: 5px 0px 0px 0px;
+opacity: 0px;
+text-align:center;
+  font-size:20px;
+
+  color: #9AABD8;
+
+
+}
+.plus-one-point{
+  width: 45px;
+height: 45px;
+top: 271px;
+cursor:pointer;
+  border: none;
+    background: none;
+    cursor: pointer;
+left: 82px;
+gap: 0px;
+border-radius: 5px 0px 0px 0px;
+opacity: 0px;
+color: #9AABD8;
+   font-weight: 200;
+border: 2px solid #9AABD8
+}
+
+.add-points-btns-home2{
+  width: 155px;
+height: 45px;
+top: 271px;
+left: 337px;
+gap: 0px;
+border-radius: 5px 0px 0px 0px;
+opacity: 0px;
+color: #9AABD8;
+
+}
+.plus-one-point:hover{
+  background:#3862c9;
+  border-color: rgb(117, 226, 226);
+}
